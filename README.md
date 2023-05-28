@@ -25,7 +25,9 @@ git clone https://github.com/bottles10/id-generator.git
 2. Navigate to the project directory:
 
 
-3. Open the `index.html` file in your web browser.
+3. Run ```npm install```
+
+4. Run ```npm start``` (it builds and run the app on a server)
 
 ## Usage
 
@@ -35,7 +37,7 @@ git clone https://github.com/bottles10/id-generator.git
 
 ## Faker page
 
-The Faker Api is licensed under the [Faker api](https://fakerjs.dev/).
+The Faker Api homepage  [Faker api](https://fakerjs.dev/).
 
 
 
