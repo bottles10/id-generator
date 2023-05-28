@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+
+# Output directories
+dist/
+build/
+out/
+bin/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+.cache
+# Debug files
+.vscode/
+*.swp
+.DS_Store
+
+# Compiled files
+*.min.js
+*.min.css
+
+# Configuration files
+config.js
+config.json
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.idea/
+*.iml

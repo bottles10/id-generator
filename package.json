@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^8.0.1"
+  },
+  "name": "week6-project",
+  "description": "The Id Genrator Project is a simple web application that generates fake user ID cards using the Faker.js library. It allows you to dynamically create ID cards by entering the first name and last name of a user.",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bottles10/id-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bottles10/id-generator/issues"
+  },
+  "homepage": "https://github.com/bottles10/id-generator#readme"
+}

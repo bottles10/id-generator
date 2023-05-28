@@ -19,12 +19,18 @@
         <input type="text" id="firstNameInput" />
         <label for="lastNameInput">Last Name:</label>
         <input type="text" id="lastNameInput" />
+        <div>
+          <select id="genderSelect">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
         <button type="submit" id="generateBtn">Generate ID Card</button>
+        <div id="errorContainer" class="error-message"></div>
       </div>
       <div id="idCard" style="display: none"></div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@faker-js/faker@3.1.0/build/build/faker.min.js"></script>
     <script src="script.js"></script>
+    
   </body>
 </html>

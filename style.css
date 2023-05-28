@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: futura;
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+  font-family: 'Permant Maker', cursive;;
   text-align: center;
 }
 
@@ -28,6 +29,7 @@ h1 {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 #idCardForm input[type="text"] {
@@ -108,4 +110,24 @@ h1 {
   #idCardContainer {
     max-width: 60%;
   }
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#idCardForm select {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 20%;
+  height: 40px; /* Adjust the height as desired */
+}
+
+p.capitalize {
+  text-transform: capitalize;
 }
