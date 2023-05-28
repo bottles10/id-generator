@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href=
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
-<body>
-  <h1>ID Card Generator</h1>
-  <div id="idCardContainer">
-    <div id="idCardForm">
-      <label for="firstNameInput">First Name:</label>
-      <input type="text" id="firstNameInput">
-      <label for="lastNameInput">Last Name:</label>
-      <input type="text" id="lastNameInput">
-      <button type="submit" id="generateBtn">Generate ID Card</button>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Id Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <h1>ID Card Generator</h1>
+    <div id="idCardContainer">
+      <div id="idCardForm">
+        <label for="firstNameInput">First Name:</label>
+        <input type="text" id="firstNameInput" />
+        <label for="lastNameInput">Last Name:</label>
+        <input type="text" id="lastNameInput" />
+        <button type="submit" id="generateBtn">Generate ID Card</button>
+      </div>
+      <div id="idCard" style="display: none"></div>
     </div>
-    <div id="idCard" style="display: none;"></div>
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/@faker-js/faker@3.1.0/build/build/faker.min.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@faker-js/faker@3.1.0/build/build/faker.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
