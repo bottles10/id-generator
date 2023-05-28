@@ -59,11 +59,13 @@ h1 {
   text-align: center;
 }
 
-#idCard img {
-  width: 150px;
-  height: 150px;
+#idCard .avatar {
+  width: 130px;
+  height: 130px;
+  border: 4px solid black;
   border-radius: 50%;
-  margin-bottom: 10px;
+  font-size: 100px;
+  margin: auto;
 }
 
 #idCard h3 {
@@ -84,11 +86,26 @@ h1 {
 #idCard .details p:last-child {
   margin-bottom: 0;
 }
-.avatar {
-  width: 130px;
-  height: 130px;
-  border: 4px solid black;
-  border-radius: 50%;
-  font-size: 100px;
-  margin: auto;
+
+/* Media Queries */
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+  #idCardContainer {
+    max-width: 100%;
+  }
+}
+
+/* Medium devices (between 576px and 992px) */
+@media (min-width: 576px) and (max-width: 992px) {
+  #idCardContainer {
+    max-width: 80%;
+  }
+}
+
+/* Large devices (greater than 992px) */
+@media (min-width: 992px) {
+  #idCardContainer {
+    max-width: 60%;
+  }
 }
